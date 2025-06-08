@@ -36,3 +36,11 @@ function addThreeGuest() {
 function updateGuestCounter() {
     guestCount.textContent = guest
 }
+
+// 👇 Make them accessible from HTML
+window.addOneHome = addOneHome;
+window.addTwoHome = addTwoHome;
+window.addThreeHome = addThreeHome;
+window.addOneGuest = addOneGuest;
+window.addTwoGuest = addTwoGuest;
+window.addThreeGuest = addThreeGuest;
