@@ -1,7 +1,5 @@
-import {defineConfig} from "vite"
+import { defineConfig } from 'vite'
 
 export default defineConfig({
-	plugins: [
-		
-	]
+  base: './', // 👈 this is the important part for Netlify!
 })
